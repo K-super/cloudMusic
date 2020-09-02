@@ -1,0 +1,462 @@
+@charset "utf-8";
+body{
+	background: #f5f5f5;
+}
+header{
+	height: 76px;
+	width: 100%;
+
+}
+#h_top{
+	height: 70px;
+	width: 100%;
+	background-color: rgb(36,36,36);
+
+}
+#cloud_music{
+	height: 70px;
+	width: 200px;
+	margin-left: 150px;
+	font-size: 24px;
+	font-weight: bold;
+	color: #FFFFFF;
+	line-height: 60px;
+	top: 5px;
+}
+#ul_top{
+	height: 70px;
+	width: 480px;
+	margin-left: 350px;
+}
+#cloud_music img{
+	vertical-align: middle;
+	height: 46px;
+	width: 40px;
+	margin-right: 5px;	
+}
+#ul_top li{
+	height: 70px;
+	width: 80px;
+	line-height: 70px;
+}
+#ul_top li a{
+	color: #FFFFFF;
+}
+#ul_top li:hover{
+	background: #000000;
+}
+#ul_top li img{
+	height: 10px;
+	width: 20px;
+	bottom: 0;
+	left: 30px;
+}
+#ul_top li:nth-of-type(6){
+	background: #000000;
+}
+/* 输入框 */
+#sch{
+	top: 20px;
+	left: 920px;
+	height: 25px;
+	width: 160px;
+	border-radius: 20px;
+	background: url(../img/header/question_mark.png) left 5px top 5px no-repeat;
+	background-size: 20px 20px;
+	background-color: #FFFFFF;
+	padding-left: 25px;
+}
+
+#auther_center{
+	top: 20px;
+	right: 220px;
+	color: #fff;
+	height: 30px;
+	width: 100px;
+	border: 1px solid rgb(78,78,78);
+	border-radius: 15px;
+	line-height: 30px;
+}
+#auther_center:hover{
+	border-color: #FFFFFF;
+}
+#loading{
+	right: 180px;
+	top: 28px;
+	color: rgb(116,116,116);
+}
+#loading:hover{
+	color: rgb(150,150,150);
+}
+/* HOT设置 */
+#ul_top li>span{
+	background-color: rgb(179,40,30);
+	color: #fff;
+	height: 14px;
+	width: 32px;
+	line-height: 14px;
+	border-radius: 10px;
+	font-size: 12px;
+	top:20px;
+	right:-30px;
+}
+/* 红色横条 */
+#row{
+	height: 6px;
+	width: 100%;
+	background: rgb(179,40,30);
+}
+
+/* section内容部分 */
+#outer{
+	background: rgb(25,25,25);
+}
+#inner{
+	width: 1100px;
+	margin: 0 auto;
+	padding: 70px 0 112px;
+}
+#inner span{
+	height: 24px;
+	line-height: 24px;
+	color: #eee;
+}
+#listen-pc>div:nth-of-type(1){
+	margin-bottom: 23px;
+	width: 100%;
+	opacity: 0.8;
+	color: #FFFFFF;
+}
+#listen-pc>div:nth-of-type(2){
+	
+}
+#listen-pc{
+	width: 556px;
+	height: 100%;
+}
+#listen-pc img{
+	width: 464px;
+	height: 273px;
+	vertical-align: middle;
+}
+/* 版本字体格式 */
+#listen-pc>div,#listen-phone>div{
+	width: 100%;
+	margin: 20px auto;
+}
+/* 小图片的设置 */
+#listen-pc div img,#listen-phone div img{
+	height: 26px;
+	width: 27px;
+}
+#listen-phone{
+	margin-left: 220px;
+	width: 300px;
+	height: 100%;
+}
+#listen-phone>div:nth-of-type(1){
+	margin-bottom: 23px;
+	width: 100%;
+	opacity: 0.8;
+	color: #FFFFFF;
+}
+#listen-phone img{
+	width: 246px;
+	height: 273px;
+}
+/* 两个下载按钮的设置 */
+#pc-download>a,#phone-download>a{
+	width: 300px;
+	height: 65px;
+	margin: 0 auto;
+	border-radius: 65px;
+	background-color: #fff;
+	color: #D10000;
+	font-size: 22px;
+	line-height: 65px;
+}
+#pc-download>a:hover{
+	opacity: 0.7;
+}
+#phone-download>a:hover{
+	opacity: 0.7;
+}
+/* 按钮中的二维码 */
+#phone-download>a>i{
+	background: url(../img/section/DL-QRcode.png) no-repeat;
+	width: 21px;
+	height: 21px;
+	margin-right: 3px;
+	background-size: contain;
+	vertical-align: -3px;
+}
+
+
+/* 固定在页面不动的二维码部分 */
+#QRcode{
+	position: fixed;
+	z-index: 10;
+	top: 395px;
+	right: 25px;
+	padding: 16px 18px 9px;
+	background: #fff;
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+	border-radius: 10px;
+	color: #333;
+}
+#QRcode img{
+	height: 100px;
+	width: 100px;
+}
+#QRcode p{
+	color: #333;
+}
+
+/* 内容第二板块second */
+.model-first{
+	background: #fff;
+	height: 437px;
+	border-bottom: 1px solid #e3e3e3;
+}
+.modelFrist-cont{
+	padding-top: 120px;
+	width: 982px;
+	margin: 0 auto;
+}
+.modelFrist-cont>div>h3{
+	font-size: 40px;
+	font-weight: normal;
+	padding: 45px 0 5px 0;
+	color: #333;
+}
+.modelFrist-cont>div>span{
+	color: #666;
+	line-height: 24px;
+}
+/* 图片的设置 */
+.modelFrist-cont>div:nth-of-type(2){
+	margin-right: 57px;
+}
+
+.add_bkColor{
+	background: #f8f8f8;
+}
+
+
+
+/* footer */
+footer{
+	border: 1px solid rgb(227,227,227);
+	padding-top: 30px;
+	height: 127px;
+	width: 100%;
+	background: rgb(242,242,242);
+}
+#conten{
+	height: 70px;
+	width: 1000px;
+	margin: 0 auto;
+}
+#conten-help li>a{
+	color: rgb(202,202,202);
+	padding: 2px 10px;
+	height: 12px;
+	width: 80px;
+	border-right: 1px solid rgb(202,202,202);
+	line-height: 12px;
+}
+#conten-help li>a:nth-of-type(2){
+	padding-left: 0;
+}
+#company-infor,#call{
+	font-size: 12px;
+	color:rgb(102,102,102);
+	margin-left: 26px;
+	margin-top: 4px;
+}
+#icon{
+	right: 0;
+	top: 0px;
+}
+#icon li a>img{
+	height: 50px;
+	width: 50px;
+}
+#icon li{
+	height: 70px;
+	width: 60px;
+	font-size: 12px;
+	margin: 0 10px;
+}
+#icon li a{
+	color:rgb(131,131,131);
+}
+#video{
+	position: absolute;
+	height: 58px;
+	width: 100%;
+	background: url(../img/footer/video.png) repeat-x;
+	background-position: 0px 4px;
+}
+#vi-key{
+	height: 60px;
+	width: 52px;
+	background-position: 0 -376px;
+	top: -14px;
+	right: 15px;
+}
+#key{
+	height: 18px;
+	width: 18px;
+	background-position: -80px -380px;
+	margin: 8px 0 0 17px;
+}
+#key:hover{
+	background-position: -80px -400px;
+}
+#vi-center{
+	margin: 0 auto;
+	height: 47px;
+	width: 960px;
+	margin-left: 245px;
+}
+/* 上下暂停按钮设置 */
+#previous{
+	width: 28px;
+	height: 28px;
+	background-position: 0px -130px;
+	margin-left: 8px;
+}
+#previous:hover{
+	background-position: -30px -130px;
+}
+#stop{
+	width: 36px;
+	height: 36px;
+	background-position: 0px -204px;
+	margin-top: 0;
+}
+#stop:hover{
+	background-position: -40px -204px;
+}
+#next{
+	width: 28px;
+	height: 28px;
+	background-position:-80px -130px ;
+}
+#next:hover{
+	background-position: -110px -130px;
+}
+/* 音乐图标 */
+#music-pic img{
+	height: 34px;
+	width: 34px;
+	top: 5px;
+	left: 140px;
+}
+#music-pic a{
+	width: 34px;
+	height: 35px;
+	background-position: 0 -80px;
+	top: 5px;
+	left: 140px;
+}
+/* 进度条 */
+#play{
+	width: 580px;
+	height: 45px;
+	margin-left: 200px;
+}
+#space{
+	width: 580px;
+	height: 20px;
+}
+#bar{
+	background-position: right 0;
+	background-repeat: repeat-x;
+	height: 9px;
+	width: 493px;
+	left: 8px;
+	top: 6px;
+	background: url(../img/footer/statbar.png) no-repeat;
+}
+#bar-pic{
+	width: 22px;
+	height: 24px;
+	background-position: 0px -250px;
+	z-index: 999;
+	top: 0px;
+}
+#bar-pic:hover{
+	background-position: 0px -280px;
+	z-index: 999;
+}
+#time{
+	color: #797979;
+	text-shadow: 0 1px 1 #121212;
+	right: 180px;
+	top: 22px;
+}
+/* 文档和分享按钮 */
+#doc-share{
+	width: 60px;
+	top: 0;
+	right: 100px;
+	top: 12px;
+}
+#doc{
+	background-position: -88px -163px;
+	height: 25px;
+	width: 25px;
+}
+#doc:hover{
+	background-position: -88px -189px;
+}
+#share{
+	height: 25px;
+	width: 25px;
+	background-position:-114px -163px ;
+}
+#share:hover{
+	background-position: -114px -189px;
+}
+
+/* 其他三个按钮设置 */
+#other{
+	z-index: 10;
+	width: 113px;
+	padding-left: 13px;
+	background-position: -147px -238px;
+	top: 1px;
+	right: -20px;
+}
+#voice{
+	height: 25px;
+	width: 25px;
+	margin: 11px 2px 0 0;
+	background-position: -2px -248px;
+}
+#voice:hover{
+	background-position: -31px -248px;
+}
+#change{
+	background-position: -3px -344px;
+	height: 25px;
+	width: 25px;
+	margin: 11px 2px 0 0;
+}
+#change:hover{
+	background-position: -33px -344px;
+}
+#doc-stop{
+	height: 25px;
+	width: 38px;
+	padding-left: 21px;
+	background-position: -42px -68px;
+	line-height: 27px;
+	color: #666;
+	text-shadow: 0 1px 0 #080707;
+}
+#doc-stop:hover{
+	background-position: -42px -98px;
+}

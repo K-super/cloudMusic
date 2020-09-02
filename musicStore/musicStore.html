@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>云音乐商城 - 音乐购有趣</title>
+		<link type="text/css" rel="stylesheet" href="./css/common.css" />
+		<link type="text/css" rel="stylesheet" href="./css/musicStore.css" />
+		<link type="text/css" rel="stylesheet" href="./css/reset.css"/>
+	</head>
+	<body>
+		<!-- 头部 -->
+		<header class="pos">
+			<div id="top" class="pos cl">
+				<div id="musicLogo" class="left">
+					<a href="#" class="inblock bkground-modules"></a>
+				</div>
+				<div id="Top-seach" class="left pos">
+					<form class="bkground-modules">
+						<input type="text" placeholder="耳机" id="search"></input>
+					</form>
+					<div id="inp-hid" class="abs f14">
+						<a href="#" class="txt-bold f12 block">热门搜索</a>
+						<a href="#" class="block">花</a>
+						<a href="#" class="block">真无线</a>
+						<a href="#" class="block">服装</a>
+						<a href="#" class="block">蓝牙</a>
+						<a href="#" class="block">乐器</a>
+					</div>
+				</div>
+				<div id="shopcar" class="left pos">
+					<a href="#" class="inblock bkground-modules pos">
+						<span class="txt-center bkground-modules abs f14">0</span>
+					</a>
+				</div>
+				<!-- 登陆 -->
+				<div id="user" class="left pos">
+					<div class="left f14 txt-center">登陆</div>
+					<!-- 登陆下拉列表 -->
+					<ul class="abs" id="loading">
+						<li class="f12">
+							<a href="#" class="block">
+								<em class="inblock pos bkground-phonelog"></em>
+								手机号登陆
+							</a>
+						</li>
+						<li class="f12">
+							<a href="#" class="block">
+								<em class="inblock pos bkground-logins weChat"></em>
+								微信登陆
+							</a>
+						</li>
+						<li class="f12">
+							<a href="#" class="block">
+								<em class="inblock pos QQ bkground-logins"></em>
+								QQ登陆
+							</a>
+						</li>
+						<li class="f12">
+							<a href="#" class="block">
+								<em class="inblock pos Sina"></em>
+								新浪微博登陆
+							</a>
+						</li>
+						<li class="f12">
+							<a href="#" class="block">
+								<em class="inblock pos Netease"></em>
+								网易邮箱账号登陆
+							</a>
+						</li>
+					</ul>
+					<i class="abs bkground-modules" id="user-h"></i>
+				</div>
+			</div>
+		</header>
+		
+		<section class="pos">
+			<div id="banner" class="pos">
+				<ul class="pos" id="ban-ul">
+					<li>
+						<a href="#" class="block abs">
+							<img src="img/section/X-PCtWIYYCwqoVZ4D_T4jQ%253D%253D%252F109951164456359783.jpeg">
+						</a>
+					</li>
+					<li>
+						<a href="#" class="block abs">
+							<img src="img/section/1OFDLT6Fj9NJ31BSFLEkrA%253D%253D%252F109951164451123359.jpeg">
+						</a>
+					</li>
+					<li>
+						<a href="#" class="block abs">
+							<img src="img/section/IDyrxYI9CqSj5CZJs0v8iQ%253D%253D%252F109951164432308099.jpeg">
+						</a>
+					</li>
+					<li>
+						<a href="#" class="block abs">
+							<img src="img/section/JeJJrQuDCcdYmqenbo8eNw%253D%253D%252F109951164434015775.jpeg">
+						</a>
+					</li>
+					<li>
+						<a href="#" class="block abs">
+							<img src="img/section/X8LFsaEXt8wBNAajrPP1oA%253D%253D%252F109951164454514159.jpeg">
+						</a>
+					</li>
+					<li>
+						<a href="#" class="block abs">
+							<img src="img/section/n4nw8hjDVuBx9aELFzH55w%253D%253D%252F109951164452382098.jpeg">
+						</a>
+					</li>
+				</ul>
+				<div id="dots" class="abs txt-center">
+					<a href="javascript:void(0)" class="add_bkDots"></a>
+					<a href="javascript:void(0)"></a>
+					<a href="javascript:void(0)"></a>
+					<a href="javascript:void(0)"></a>
+					<a href="javascript:void(0)"></a>
+					<a href="javascript:void(0)"></a>
+				</div>
+				<div id="point">
+					<a href="javascript:void(0)" id="goLeft" class="abs">
+						<i class="bkground-pointlist block abs"></i>
+					</a>
+					<a href="javascript:void(0)" id="goRight" class="abs">
+						<i class="bkground-pointlist block abs"></i>
+					</a>
+				</div>
+			</div>
+			<!-- 轮播图下面的导航 -->
+			<div id="hometab">
+				<ul class="cl">
+					<li class="left">
+						<a href="#" class="left block txt-center">
+							<img src="img/section/hot.jpeg"/>
+							<span class="inblock txt-bold f14">热销爆品</span>
+						</a>
+						<!-- em用于设置右侧的小竖线 -->
+						<em class="inblock"></em> 
+					</li>
+					<li class="left">
+						<a href="#" class="left block txt-center">
+							<img src="img/section/bag.jpeg"/>
+							<span class="inblock txt-bold f14">IP周边</span>
+						</a>
+						<!-- em用于设置右侧的小竖线 -->
+						<em class="inblock"></em> 
+					</li>
+					<li class="left">
+						<a href="#" class="left block txt-center">
+							<img src="img/section/headset.jpeg"/>
+							<span class="txt-bold inblock f14">数码影音</span>
+						</a>
+						<!-- em用于设置右侧的小竖线 -->
+						<em class="inblock"></em> 
+					</li>
+					<li class="left pos">
+						<a href="#" class="left block txt-center">
+							<img src="img/section/jifen.png"/>
+							<div class="inblock txt-bold f14">积分商城</div>
+							<p class="inblock txt-center f12 abs">0 积分</p>
+						</a>
+						<!-- em用于设置右侧的小竖线 -->
+						<em class="inblock f14"></em> 
+					</li>
+				</ul>
+			</div>
+			
+			<!-- 商品部分 -->
+			<div id="goods">
+				<div id="goods-cont">
+					<!-- 红蓝广告部分 -->
+					<div id="ad" class="cl">
+						<!-- 红广告部分 -->
+						<div id="ad-red" class="left">
+							<a href="#">
+								<img src="img/section/ad-red.jpeg" />
+							</a>
+						</div>
+						<!-- 蓝广告部分 -->
+						<div id="ad-blue" class="right">
+							<a href="#">
+								<img src="img/section/ad-blue.jpeg" />
+							</a>
+						</div>
+					</div>
+					<!-- 编辑推荐 -->
+					<div id="editor-recommend">
+						<p class="txt-bold f24 mtv">编辑推荐</p>
+						<!-- 商品列表 -->
+						<div class="storeModel">
+							<ul class="store-modelList cl">
+								<!-- 第一件商品 -->
+								<li class="left pos">
+									<a href="#" class="inblock">
+										<img src="img/section/109951164094159737.jpg" class="block"/>
+									</a>
+									<span class="abs">
+										<span class="abs txt-center">¥89</span>
+										<del class="abs txt-center">¥169</del>
+									</span>
+									<div id="textModel">
+										<h3 class="txt-center">
+											<span><em class="f12 txt-left">特价</em></span>
+											<a href="#" class="txt-center f14 mtn">伯朗 i9S蓝牙5.0真无线耳机双耳通话苹果安卓通用</a>
+										</h3>
+										<p class="f16 ellipsis txt-center">¥<em>89</em></p>
+									</div>
+								</li>
+								<!-- 第二件商品 -->
+								<li class="left pos">
+									<a href="#" class="inblock">
+										<img src="img/section/109951164389370205.jpg" class="block"/>
+									</a>
+									<div id="textModel">
+										<h3 class="txt-center">
+											<span><em class="f12 txt-left">包邮</em></span>
+											<a href="#" class="txt-center f14 mtn">kinbor 音乐的力量套装 DTB6550</a>
+										</h3>
+										<p class="f16 ellipsis txt-center">¥<em>138</em></p>
+									</div>
+								</li>
+								<!-- 第三件商品 -->
+								<li class="left pos">
+									<a href="#" class="inblock">
+										<img src="img/section/109951164323342940.jpg" class="block"/>
+									</a>
+									<div id="textModel">
+										<h3 class="txt-center">
+											<span><em class="f12 txt-left">包邮</em></span>
+											<a href="#" class="txt-center f14 mtn">网易云音乐 音乐星球帆布袋</a>
+										</h3>
+										<p class="f16 ellipsis txt-center">¥<em>49</em></p>
+									</div>
+								</li>
+								<!-- 第四件商品 -->
+								<li class="left pos prz">
+									<a href="#" class="inblock">
+										<img src="img/section/109951164310449986.jpg" class="block"/>
+									</a>
+									<div id="textModel">
+										<h3 class="txt-center">
+											
+											<a href="#" class="txt-center f14 mtn">网易云音乐联名款真无限蓝牙耳机TWS1</a>
+										</h3>
+										<p class="f16 ellipsis txt-center">¥<em>298</em></p>
+									</div>
+								</li>
+								<!-- 第五件商品 -->
+								<li class="left pos">
+									<a href="#" class="inblock">
+										<img src="img/section/109951164254687811.jpg" class="block"/>
+									</a>
+									<span class="abs">
+										<span class="abs txt-center">¥299</span>
+										<del class="abs txt-center">¥518</del>
+									</span>
+									<div id="textModel">
+										<h3 class="txt-center">
+											<span><em class="f12 txt-left">用劵减100</em></span>
+											<a href="#" class="txt-center f14 mtn">易系列尤克里里升级款 网易乐器出品 胡桃木/桃花芯二色可选 入门级合板 23寸</a>
+										</h3>
+										<p class="f16 ellipsis txt-center">
+											¥<em>518</em>
+											<span>（黑胶vip¥390）</span>
+										</p>
+									</div>
+								</li>
+								<!-- 第六件商品 -->
+								<li class="left pos">
+									<a href="#" class="inblock">
+										<img src="img/section/109951164202388691.jpg" class="block"/>
+									</a>
+									<span class="abs">
+										<span class="abs txt-center">¥129</span>
+										<del class="abs txt-center">¥199</del>
+									</span>
+									<div id="textModel">
+										<h3 class="txt-center">
+											<span><em class="f12 txt-left">特价</em></span>
+											<a href="#" class="txt-center f14 mtn">伯朗 i12触控真无线蓝牙耳机蓝牙5.0苹果安卓通用</a>
+										</h3>
+										<p class="f16 ellipsis txt-center">¥<em>129</em></p>
+									</div>
+								</li>
+								<!-- 第七件商品 -->
+								<li class="left pos">
+									<a href="#" class="inblock">
+										<img src="img/section/109951164205753600.jpg" class="block"/>
+									</a>
+									<span class="abs">
+										<span class="abs txt-center">¥99</span>
+										<del class="abs txt-center">¥159</del>
+									</span>
+									<div id="textModel">
+										<h3 class="txt-center">
+											<span><em class="f12 txt-left">特价</em></span>
+											<a href="#" class="txt-center f14 mtn">兰士顿 D4线控重低音炮四核双动圈耳机 苹果安卓通用 带麦</a>
+										</h3>
+										<p class="f16 ellipsis txt-center">¥<em>99</em></p>
+									</div>
+								</li>
+								<!-- 第八件商品 -->
+								<li class="left pos prz">
+									<a href="#" class="inblock">
+										<img src="img/section/109951164456097743.jpg" class="block"/>
+									</a>
+									<span class="abs">
+										<span class="abs txt-center">¥49</span>
+										<del class="abs txt-center">¥89</del>
+									</span>
+									<div id="textModel">
+										<h3 class="txt-center">
+											<span><em class="f12 txt-left">特价</em></span>
+											<a href="#" class="txt-center f14 mtn">网易云音乐潮流系列保温杯</a>
+										</h3>
+										<p class="f16 ellipsis txt-center">¥<em>49</em></p>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<!-- 数字专辑 -->
+					<div id="numDVD" class="pos">
+						<!-- 左侧文字 -->
+						<div id="DVD-txt">
+							<span class="block txt-bold">
+								<i class="pos inblock mrm"></i>数字专辑
+							</span>
+							<p class="pos ellipsis f16">Taylor Swift 新专辑火热售卖中</p>
+							<a href="#" class="block f24 txt-bold">立即购买 ></a>
+						</div>
+						<!-- 右侧图片 -->
+						<div id="DVD-img" class="abs">
+							<img src="img/section/p1.jpg" class="abs"/>
+							<img src="img/section/p2.jpg" class="abs"/>
+							<i class="abs bkground-pointlist"></i>
+						</div>
+					</div>
+					<!-- 热门商品 -->
+					<div id="hot-goods">
+						<p class="f24 txt-bold">热门商品</p>
+						<div id="hot-cont">
+							<ul class="store-modelList cl">
+								<!-- 第一件商品 -->
+								<li class="left pos">
+									<a href="#" class="inblock">
+										<img src="img/section/109951163689849242.jpg" class="block"/>
+									</a>
+									<span class="abs">
+										<span class="abs txt-center">¥299</span>
+										<del class="abs txt-center">¥399</del>
+									</span>
+									<div id="textModel">
+										<h3 class="txt-center">
+											<span><em class="f12 txt-left">特价</em></span>
+											<a href="#" class="txt-center f14 mtn">伯朗 E43真无线蓝牙耳机蓝牙5.0超长待机安卓苹果通用双耳通话</a>
+										</h3>
+										<p class="f16 ellipsis txt-center">¥<em>299</em></p>
+									</div>
+								</li>
+								<!-- 第二件商品 -->
+								<li class="left pos">
+									<a href="#" class="inblock">
+										<img src="img/section/18905002928382973.jpg" class="block"/>
+									</a>
+									<div id="textModel">
+										<h3 class="txt-center">
+											<span><em class="f12 txt-left">包邮</em></span>
+											<a href="#" class="txt-center f14 mtn">网易云音乐&本来设计 原木创意手机支架手机座扩音器</a>
+										</h3>
+										<p class="f16 ellipsis txt-center">¥<em>179</em></p>
+									</div>
+								</li>
+								<!-- 第三件商品 -->
+								<li class="left pos">
+									<a href="#" class="inblock">
+										<img src="img/section/109951164017036341.jpg" class="block"/>
+									</a>
+									<div id="textModel">
+										<h3 class="txt-center">
+											<a href="#" class="txt-center f14 mtn">击音【触控级】降噪防水手势识别蓝牙运动耳机</a>
+										</h3>
+										<p class="f16 ellipsis txt-center">¥<em>149</em></p>
+									</div>
+								</li>
+								<!-- 第四件商品 -->
+								<li class="left pos prz">
+									<a href="#" class="inblock">
+										<img src="img/section/18984167765584687.jpg" class="block"/>
+									</a>
+									<div id="textModel">
+										<h3 class="txt-center">
+											<span><em class="f12 txt-left">包邮</em></span>
+											<a href="#" class="txt-center f14 mtn">本来设计 原创木质冰箱磁贴 创意礼品生日礼物</a>
+										</h3>
+										<p class="f16 ellipsis txt-center">¥<em>59</em></p>
+									</div>
+								</li>
+								<!-- 第五件商品 -->
+								<li class="left pos">
+									<a href="#" class="inblock">
+										<img src="img/section/109951164389493621.jpg" class="block"/>
+									</a>
+									<div id="textModel">
+										<h3 class="txt-center">
+											<a href="#" class="txt-center f14 mtn">网易云音乐联名款W800X头戴式蓝牙耳机</a>
+										</h3>
+										<p class="f16 ellipsis txt-center">
+											¥<em>199</em>
+										</p>
+									</div>
+								</li>
+								<!-- 第六件商品 -->
+								<li class="left pos">
+									<a href="#" class="inblock">
+										<img src="img/section/109951164111206325.jpg" class="block"/>
+									</a>
+									<div id="textModel">
+										<h3 class="txt-center">
+											<a href="#" class="txt-center f14 mtn">JBL C200SI立体声入耳式耳机 手机音乐耳机 运动游戏耳机 耳机耳麦 带麦可通话</a>
+										</h3>
+										<p class="f16 ellipsis txt-center">¥<em>139</em></p>
+									</div>
+								</li>
+								<!-- 第七件商品 -->
+								<li class="left pos">
+									<a href="#" class="inblock">
+										<img src="img/section/109951163679752096.jpg" class="block"/>
+									</a>
+									<div id="textModel">
+										<h3 class="txt-center">
+											<span><em class="f12 txt-left">用券减100</em></span>
+											<a href="#" class="txt-center f14 mtn">网易云音乐氧气蓝牙耳机Pro版</a>
+										</h3>
+										<p class="f16 ellipsis txt-center">¥<em>399</em></p>
+									</div>
+								</li>
+								<!-- 第八件商品 -->
+								<li class="left pos prz">
+									<a href="#" class="inblock">
+										<img src="img/section/109951163725394326.jpg" class="block"/>
+									</a>
+									<div id="textModel">
+										<h3 class="txt-center">
+											<a href="#" class="txt-center f14 mtn">漫步者（EDIFIER）W2 真无线 入耳式立体声蓝牙耳机 蓝牙5.0 左右可独立使用</a>
+										</h3>
+										<p class="f16 ellipsis txt-center">¥<em>299</em></p>
+									</div>
+								</li>
+								<!-- 第九商品 -->
+								<li class="left pos">
+									<a href="#" class="inblock">
+										<img src="img/section/109951164064517915.jpg" class="block"/>
+									</a>
+									<div id="textModel">
+										<h3 class="txt-center">
+											<a href="#" class="txt-center f14 mtn">网易云音乐氧气蓝牙耳机青春版</a>
+										</h3>
+										<p class="f16 ellipsis txt-center">¥<em>299</em></p>
+									</div>
+								</li>
+								<!-- 第十商品 -->
+								<li class="left pos">
+									<a href="#" class="inblock">
+										<img src="img/section/18903903416702874.jpg" class="block"/>
+									</a>
+									<div id="textModel">
+										<h3 class="txt-center">
+											<a href="#" class="txt-center f14 mtn">漫步者（EDIFIER） H230P 入耳式立体声线控耳机</a>
+										</h3>
+										<p class="f16 ellipsis txt-center">¥<em>69</em></p>
+									</div>
+								</li>
+								<!-- 第十一商品 -->
+								<li class="left pos">
+									<a href="#" class="inblock">
+										<img src="img/section/109951164119373335.jpg" class="block"/>
+									</a>
+									<div id="textModel">
+										<h3 class="txt-center">
+											<span><em class="f12 txt-left">用券减200</em></span>
+											<a href="#" class="txt-center f14 mtn">云音乐联名款JBL W30BT蓝牙耳机</a>
+										</h3>
+										<p class="f16 ellipsis txt-center">¥<em>399</em></p>
+									</div>
+								</li>
+								<!-- 第十二商品 -->
+								<li class="left pos prz">
+									<a href="#" class="inblock">
+										<img src="img/section/109951163618674656.jpg" class="block"/>
+									</a>
+									<div id="textModel">
+										<h3 class="txt-center">
+											<span><em class="f12 txt-left">特价</em></span>
+											<a href="#" class="txt-center f14 mtn">弯头数据线快充2.4A苹果安卓Type-C 玩游戏充电线</a>
+										</h3>
+										<p class="f16 ellipsis txt-center">¥<em>29</em></p>
+									</div>
+								</li>
+								<!-- 第十三商品 -->
+								<li class="left pos">
+									<a href="#" class="inblock">
+										<img src="img/section/19100715998038101.jpg" class="block"/>
+									</a>
+									<div id="textModel">
+										<h3 class="txt-center">
+											<a href="#" class="txt-center f14 mtn">弯头数据线快充2.4A苹果安卓Type-C 玩游戏充电线</a>
+										</h3>
+										<p class="f16 ellipsis txt-center">¥<em>69</em></p>
+									</div>
+								</li>
+								<!-- 第十四商品 -->
+								<li class="left pos">
+									<a href="#" class="inblock">
+										<img src="img/section/109951164111215163.jpg" class="block"/>
+									</a>
+									<span class="abs">
+										<span class="abs txt-center">¥118</span>
+										<del class="abs txt-center">¥128</del>
+									</span>
+									<div id="textModel">
+										<h3 class="txt-center">
+											<span><em class="f12 txt-left">特价</em></span>
+											<a href="#" class="txt-center f14 mtn">JBL T120A 立体声入耳式耳机 手机音乐耳机 游戏耳机 耳机耳麦 带麦可通话</a>
+										</h3>
+										<p class="f16 ellipsis txt-center">¥<em>118</em></p>
+									</div>
+								</li>
+								<!-- 第十五商品 -->
+								<li class="left pos">
+									<a href="#" class="inblock">
+										<img src="img/section/109951164459382843.jpg" class="block"/>
+									</a>
+									<span class="abs">
+										<span class="abs txt-center">¥799</span>
+										<del class="abs txt-center">¥1188</del>
+									</span>
+									<div id="textModel">
+										<h3 class="txt-center">
+											<span><em class="f12 txt-left">特价</em></span>
+											<a href="#" class="txt-center f14 mtn">Beats X 颈挂式无线蓝牙手机音乐入耳耳机 带麦可通话耳塞</a>
+										</h3>
+										<p class="f16 ellipsis txt-center">¥<em>799</em></p>
+									</div>
+								</li>
+								<!-- 第十六商品 -->
+								<li class="left pos prz">
+									<a href="#" class="inblock">
+										<img src="img/section/109951163003565895.jpg" class="block"/>
+									</a>
+									<span class="abs">
+										<span class="abs txt-center">¥179</span>
+										<del class="abs txt-center">¥199</del>
+									</span>
+									<div id="textModel">
+										<h3 class="txt-center">
+											<span><em class="f12 txt-left">特价</em></span>
+											<a href="#" class="txt-center f14 mtn">本来设计 原木质音乐盒八音盒</a>
+										</h3>
+										<p class="f16 ellipsis txt-center">¥<em>178</em></p>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<!-- 右侧导航栏 -->
+				<div id="navRight" class="abs">
+					<ul>
+						<li class="txt-center f12">
+							<a href="#" class="block">查看<br/>营业执照</a>
+						</li>
+						<li class="txt-center f12">
+							<a href="#" class="block">100%<br/>正品</a>
+						</li>
+						<li class="txt-center f12">
+							<a href="#" class="block">七天无理由退货<a/>
+						</li>
+						<li class="txt-center f12">
+							<a href="#" class="block padding-z">
+							<i class="block shoppingCar"></i>
+							购物车
+							</a>
+						</li>
+						<li class="txt-center f12">
+							<a href="#" class="block padding-z">
+								<i class="block service"></i>
+								客服
+							</a>
+						</li>
+						<li class="txt-center f12">
+							<a href="javascript:void(0)" id="returnTop" class="block top padding-z"></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		
+		<footer>
+			<div>
+				<div id="ft-cont" class="cl">
+					<div id="ft-contTxt" class="left">
+						<p id="ft-p1" class="f12">
+							<a href="#">关于网易</a>
+							<span>|</span>
+							<a href="#">客户服务</a>
+							<span>|</span>
+							<a href="#">服务条款</a>
+							<span>|</span>
+							<a href="#">网站导航</a>
+							<span>|</span>
+							<a href="#">意见反馈</a>
+						</p>
+						<p id="ft-p2" class="f12">
+							<span>网易公司版权所有©1997-2019</span>杭州乐读科技有限公司运营：
+							<a href="">浙网文[2015] 0415-135号</a>
+						</p>
+					</div>
+					<ul id="ft-contImg" class="right">
+						<li>
+							<a href="#" class="left mlv ftImg1">独立音乐人</a>
+						</li>
+						<li>
+							<a href="#" class="left mlv ftImg2">音乐专栏</a>
+						</li>
+						<li>
+							<a href="#" class="left mlv ftImg3">自媒体</a>
+						</li>
+						<li>
+							<a href="#" class="left mlv ftImg4">赞赏</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+	</body>
+	<script src="js/jquery3.4.1.js"></script>
+	<script type="text/javascript" src="js/section.js"></script>
+	<script type="text/javascript" src="js/header.js"></script>
+</html>

@@ -1,0 +1,989 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>网易云音乐</title>
+		<link rel="stylesheet" type="text/css" href="css/cloudMusic.css"/>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+	</head>
+	<body>
+		<a id="backtop" href="#" class="block ">回到顶部</a>
+		<!-- 第一行 -->
+		<header class="first-row">
+			<!-- 第一行当中的第一行 -->
+			<div id="h_top" class="pos first-row-fr">
+				<a href="javascript:void(0)" id="cloud_music" class="block center abs">
+					<img src="img/header/cloudMusic_img.png" >网易云音乐
+				</a>
+				<ul id="ul_top" class="inblock cl">
+					<li class="left pos"><a href="#" class="f14 txt-center block">发现音乐</a><img src="img/header/red_tip.png" class="abs"></li>
+					<li class="left"><a href="../myMusic/myMusic.html" target="_self" class="f14 txt-center block">我的音乐</a></li>
+					<li class="left"><a href="../musicFriend/musicFriend.html" target="_self" class="f14 txt-center block">朋友</a></li>
+					<li class="left"><a href="../musicStore/musicStore.html" target="_blank" class="f14 txt-center block">商城</a></li>
+					<li class="left"><a href="../musicPerson/musicPerson.html" class="f14 txt-center block">音乐人</a></li>
+					<li class="left pos">
+						<a href="../downLoad/download.html" target="_self" class="f14 txt-center block">下载客户端</a>
+						<span class="abs txt-center block">HOT</span>
+					</li>
+					<form action="" method="post">
+						<input type="text" name="search" id="sch" class="abs" value="" placeholder="音乐/视频/电台/用户"/>
+					</form>
+					<a href="../autherCenter/autherCenter.html" target="_blank" id="auther_center" class="abs txt-center f12">创作者中心</a>
+					<a href="#" id="loading" class="abs decoration f12">登陆</a>
+				</ul>
+			</div>
+			<!-- 第一行当中的第二行 -->
+			<div id="nav" class="first-row-sr">
+				<ul id="nav-ul" class="cl">
+					<li class="left"><a href="#" class="block txt-center">推荐</a></li>
+					<li class="left"><a href="#" class="block txt-center">排行榜</a></li>
+					<li class="left"><a href="#" class="block txt-center">歌单<sup>®️</sup></a></li>
+					<li class="left"><a href="#" class="block txt-center">主播电台</a></li>
+					<li class="left"><a href="#" class="block txt-center">歌手</a></li>
+					<li class="left"><a href="#" class="block txt-center">新碟上架</a></li>
+				</ul>
+			</div>
+		</header>
+		<!-- 第二行 -->
+		<section class="second-row">
+			<!-- 第二行中第一行 -->
+			<div id="color-change" class="second-row-fr">
+				<!-- 轮播图 -->
+				<div id="change-pic" class="pos" >
+					<!-- 轮播图变动的部分 -->
+					<a id="pic" href="#">
+						<img id="p-img" src="./img/section/focus.jpg" />
+						
+					</a>
+					<!-- 固定不动的右侧客户端图片 -->
+					<div id="fixed-pic" class="abs bkground-download">
+						<a href="#" class="block bkground-download"></a>
+						<p class="txt-center f12">PC 安卓 iPhone WP iPad Mac 六大客户端</p>
+					</div>
+					<a id="left" href="#" class="abs block bkground-banner">></a>
+					<a id="right" href="#" class="abs block bkground-banner">></a>
+					<!-- 轮播图小点 -->
+					<div id="fc" class="abs">
+						<a href="#" class="inblock change-red-point"></a>
+						<a href="#" class="inblock change-beginpoint"></a>
+						<a href="#" class="inblock change-beginpoint"></a>
+						<a href="#" class="inblock change-beginpoint"></a>
+						<a href="#" class="inblock change-beginpoint"></a>
+						<a href="#" class="inblock change-beginpoint"></a>
+						<a href="#" class="inblock change-beginpoint"></a>
+					</div>
+				</div>
+			</div>
+			<!-- 第二板块 -->
+			<!-- 第二行中的第二行 -->
+			<div id="content" class="pos second-row-sr">
+				<!-- 第二行中第二行的第一列 -->
+				<!-- 左部分内容 -->
+				<div id="content-L" class="abs second-row-sr-fc">
+					<!-- 第二行中第二行第一列的第一行 -->
+					<div id="hot-recommend" class="cl second-row-sr-fc-fr">
+						<!-- 第二行中第二行第一列第一行中的第一行 -->
+						<div id="rec-nav" class="second-row-sr-fc-fr-fr">
+							<img src="./img/section/red-disc.png" class="left" />
+							<a href="#" class="left f22">热门推荐</a>
+							<div id="tab" class="left">
+								<a href="#" class="f12">华语</a>
+								<span class="mlm mrm">|</span>
+								<a href="#" class="f12">流行</a>
+								<span class="mlm mrm">|</span>
+								<a href="#" class="f12">摇滚</a>
+								<span class="mlm mrm">|</span>
+								<a href="#" class="f12">民谣</a>
+								<span class="mlm mrm">|</span>
+								<a href="#" class="f12">电子</a>
+							</div>
+							<span>
+								<img src="./img/section/red-right.png" class="right"/>
+								<a href="#" class="f12 right mtm">更多</a>
+							</span>
+						</div>
+						<!-- 第二行中第二行第一列第一行中的第二行 -->
+						<div id="rec-ul" class="second-row-sr-fc-fr-sr">
+							<ul class="cl">
+								<li class="pos mtv mrm left mbm">
+									<div>
+										<a href="#" class="block">
+											<img src="./img/section/109951164387632509.jpg" class="block" />
+										</a>
+										<div id="nav-n" class="bkground-coverall abs cl" >
+											<a href="#" id="headset" class="bkground-iconall left"></a>
+											<span class="f12 left">69万</span>
+											<a href="#" class="bkground-iconall abs"></a>
+										</div>
+									</div>
+									<a href="#" class="f14 mtm block">我不想遇见更好的人，我只想要你</a>
+								</li>
+								<li class="pos mtv left mlv mrm mbm">
+									<div>
+										<a href="#" class="block">
+											<img src="./img/section/109951163938845329.jpg" class="block" />
+										</a>
+										<div id="nav-n" class="bkground-coverall abs cl" >
+											<a href="#"  id="headset" class="bkground-iconall left"></a>
+											<span class="f12 left">15万</span>
+											<a href="#" class="bkground-iconall abs"></a>
+										</div>
+									</div>
+									<a href="#" class="f14 mtm block">那些惊艳了时光的翻唱，开口跪系列</a>
+								</li>
+								<li class="pos mtv left mlv mrm mbm">
+									<div>
+										<a href="#" class="block">
+											<img src="./img/section/109951163561148208.jpg" class="block" />
+										</a>
+										<div id="nav-n" class="bkground-coverall abs cl" >
+											<a href="#"  id="headset" class="bkground-iconall left"></a>
+											<span class="f12 left">12458万</span>
+											<a href="#" class="bkground-iconall abs"></a>
+										</div>
+									</div>
+									<a href="#" class="f14 mtm block">「好听的翻唱Cover集」</a>
+								</li>
+								<li class="pos mtv left mlv mbm">
+									<div>
+										<a href="#" class="block">
+											<img src="./img/section/109951164239211289.jpg" class="block" />
+										</a>
+										<div id="nav-n" class="bkground-coverall abs cl" >
+											<a href="#"  id="headset" class="bkground-iconall left"></a>
+											<span class="f12 left">42124</span>
+											<a href="#" class="bkground-iconall abs"></a>
+										</div>
+									</div>
+									<i class="bkground-icon block left"></i>
+									<a href="#" class="f14 mtm block">加快版&emsp;大田后生仔</a>
+								</li>
+								<li class="pos add-mt left mrm mbm">
+									<div>
+										<a href="#" class="block">
+											<img src="./img/section/18953381440004340.jpg" class="block" />
+										</a>
+										<div id="nav-n" class="bkground-coverall abs" >
+											<a href="#"  id="headset" class="bkground-iconall left cl"></a>
+											<span class="f12 left">13058万</span>
+											<a href="#" class="bkground-iconall abs"></a>
+										</div>
+									</div>
+									<a href="#" class="f14 mtm block">经典老歌，久听不厌</a>
+								</li>
+								<li class="pos add-mt left mlv mrm mbm">
+									<div>
+										<a href="#" class="block">
+											<img src="./img/section/109951164294987862.jpg" class="block" />
+										</a>
+										<div id="nav-n" class="bkground-coverall abs cl" >
+											<a href="#"  id="headset" class="bkground-iconall left"></a>
+											<span class="f12 left">1632</span>
+											<a href="#" class="bkground-iconall abs"></a>
+										</div>
+									</div>
+									<i class="bkground-icon block left"></i>
+									<a href="#" class="f14 mtm block">妈妈我想吃烤山药</a>
+								</li>
+								<li class="pos add-mt left mlv mrm mbm">
+									<div>
+										<a href="#" class="block">
+											<img src="./img/section/109951164216872799.jpg" class="block" />
+										</a>
+										<div id="nav-n" class="bkground-coverall abs cl" >
+											<a href="#"  id="headset" class="bkground-iconall left"></a>
+											<span class="f12 left">249万</span>
+											<a href="#" class="bkground-iconall abs"></a>
+										</div>
+									</div>
+									<a href="#" class="f14 mtm block">世界它太小，小到容不下爱人的心</a>
+								</li>
+								<li class="pos add-mt left mlv mbm">
+									<div>
+										<a href="#" class="block">
+											<img src="./img/section/109951164440002814.jpg" class="block" />
+										</a>
+										<div id="nav-n" class="bkground-coverall abs cl" >
+											<a href="#"  id="headset" class="bkground-iconall left"></a>
+											<span class="f12 left">19万</span>
+											<a href="#" class="bkground-iconall abs"></a>
+										</div>
+									</div>
+									<i class="bkground-icon block left"></i>
+									<a href="#" class="f14 mtm block">耀温顺382</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<!-- 第二行中第二行第一列第二行 -->
+					<!-- 新碟上架的导航 -->
+					<div id="newDVD" class="second-sr-fc-sr">
+						<!-- 第二行中第二行第一列第二行中的第一行 -->
+						<div id="model" class="bkground-index cl second-row-sr-fc-sr-fr">
+							<a href="#" class="left f20">新碟上架</a>
+							<span class="cl"> 
+								<i class="right bkground-index inblock"></i>
+								<a href="#" class="f12 right mtm">更多</a>
+							</span>
+						</div>
+						<!-- 新碟上架的内容部分 -->
+						<!-- 第二行中第二行第一列第二行中的第二行 -->
+						<div id="DVD-content" class="pos second-row-sr-fc-sr-sc">
+							<div id="inner" class="cl">
+								<a href="javascript:void(0)" class="abs bkground-index block" id="D-left"></a>
+								<div id="DVD-List">
+									<ul id="DVD-inner-ul" class="pos block">
+										<li class="left inline bkground-index">
+											<div>
+												<img src="img/section/109951164440649436.jpg" class="block"/>
+												<a href="#" title="初恋那件小事 电视剧原声带" class="abs bkground-coverall"></a>
+											</div>
+											<p id="DVD-inner-P1" class="ellipsis f12"><a href="" title="初恋那件小事 电视剧原声带">初恋那件小事 电视剧原声带</a></p>
+											<p id="DVD-inner-P2" class="ellipsis f12"><a href="#" title="群星">群星</a></p>
+										</li>
+										<li class="left inline bkground-index">
+											<div>
+												<img src="img/section/109951164431436715.jpg" class="block"/>
+												<a href="#" title="Harleys In Hawali" class="abs bkground-coverall"></a>
+											</div>
+											<p id="DVD-inner-P1" class="ellipsis f12"><a href="" title="Harleys In Hawali">Harleys In Hawali</a></p>
+											<p id="DVD-inner-P2" class="ellipsis f12"><a href="#" title="Katy Perry">Katy Perry</a></p>
+										</li>
+										<li class="left inline bkground-index">
+											<div>
+												<img src="img/section/109951164429099932.jpg" class="block"/>
+												<a href="#" title="我爱你这是最好的安排 电视剧原声音乐专辑" class="abs bkground-coverall"></a>
+											</div>
+											<p id="DVD-inner-P1" class="ellipsis f12"><a href="" title="我爱你这是最好的安排 电视剧原声音乐专辑">我爱你这是最好的安排 电视剧原声音乐专辑</a></p>
+											<p id="DVD-inner-P2" class="ellipsis f12"><a href="#" title="群星">群星</a></p>
+										</li>
+										<li class="left inline bkground-index">
+											<div>
+												<img src="img/section/109951164429037390.jpg" class="block"/>
+												<a href="#" title="야호(夜好)" class="abs bkground-coverall"></a>
+											</div>
+											<p id="DVD-inner-P1" class="ellipsis f12"><a href="" title="야호(夜好)">야호(夜好)</a></p>
+											<p id="DVD-inner-P2" class="ellipsis f12"><a href="#" title="N.Flying">N.Flying</a></p>
+										</li>
+										<li class="left inline bkground-index">
+											<div>
+												<img src="img/section/109951164384346866.jpg" class="block"/>
+												<a href="#" title="我和我的祖国" class="abs bkground-coverall"></a>
+											</div>
+											<p id="DVD-inner-P1" class="ellipsis f12"><a href="" title="我和我的祖国">我和我的祖国</a></p>
+											<p id="DVD-inner-P2" class="ellipsis f12"><a href="#" title="王菲">王菲</a></p>
+										</li>
+									</ul>
+									
+									
+									
+									<ul id="DVD-inner-ul" class="pos block">
+										<li class="left inline bkground-index">
+											<div>
+												<img src="img/section/109951164440558453.jpg" class="block"/>
+												<a href="#" title="Walk On Water" class="abs bkground-coverall"></a>
+											</div>
+											<p id="DVD-inner-P1" class="ellipsis f12"><a href="" title="Walk On Water">Walk On Water</a></p>
+											<p id="DVD-inner-P2" class="ellipsis f12"><a href="#" title="G.E.M.邓紫棋">G.E.M.邓紫棋</a></p>
+										</li>
+										<li class="left inline bkground-index">
+											<div>
+												<img src="img/section/109951164370176967.jpg" class="block"/>
+												<a href="#" title="将故事写成我们" class="abs bkground-coverall"></a>
+											</div>
+											<p id="DVD-inner-P1" class="ellipsis f12"><a href="" title="将故事写成我们">将故事写成我们</a></p>
+											<p id="DVD-inner-P2" class="ellipsis f12"><a href="#" title="林俊杰">林俊杰</a></p>
+										</li>
+										<li class="left inline bkground-index">
+											<div>
+												<img src="img/section/109951164260234943.jpg" class="block"/>
+												<a href="#" title="Lover" class="abs bkground-coverall"></a>
+											</div>
+											<p id="DVD-inner-P1" class="ellipsis f12"><a href="" title="Lover">Lover</a></p>
+											<p id="DVD-inner-P2" class="ellipsis f12"><a href="#" title="Taylor Swift">Taylor Swift</a></p>
+										</li>
+										<li class="left inline bkground-index">
+											<div>
+												<img src="img/section/109951164382158140.jpg" class="block"/>
+												<a href="#" title="런닝맨 팬미팅 런닝구 프로젝트" class="abs bkground-coverall"></a>
+											</div>
+											<p id="DVD-inner-P1" class="ellipsis f12"><a href="" title="런닝맨 팬미팅 런닝구 프로젝트">런닝맨 팬미팅 런닝구 프로젝트</a></p>
+											<p id="DVD-inner-P2" class="ellipsis f12"><a href="#" title="V.A">V.A</a></p>
+										</li>
+										<li class="left inline bkground-index">
+											<div>
+												<img src="img/section/109951164393458903.jpg" class="block"/>
+												<a href="#" title="哪吒之魔童降世 电影原声音乐大碟" class="abs bkground-coverall"></a>
+											</div>
+											<p id="DVD-inner-P1" class="ellipsis f12"><a href="" title="哪吒之魔童降世 电影原声音乐大碟">哪吒之魔童降世 电影原声音乐大碟</a></p>
+											<p id="DVD-inner-P2" class="ellipsis f12"><a href="#" title="朱芸编">朱芸编</a></p>
+										</li>
+									</ul>
+									
+									
+									
+									<ul id="DVD-inner-ul" class="pos block">
+										<li class="left inline bkground-index">
+											<div>
+												<img src="img/section/109951164440649436.jpg" class="block"/>
+												<a href="#" title="初恋那件小事 电视剧原声带" class="abs bkground-coverall"></a>
+											</div>
+											<p id="DVD-inner-P1" class="ellipsis f12"><a href="" title="初恋那件小事 电视剧原声带">初恋那件小事 电视剧原声带</a></p>
+											<p id="DVD-inner-P2" class="ellipsis f12"><a href="#" title="群星">群星</a></p>
+										</li>
+										<li class="left inline bkground-index">
+											<div>
+												<img src="img/section/109951164431436715.jpg" class="block"/>
+												<a href="#" title="Harleys In Hawali" class="abs bkground-coverall"></a>
+											</div>
+											<p id="DVD-inner-P1" class="ellipsis f12"><a href="" title="Harleys In Hawali">Harleys In Hawali</a></p>
+											<p id="DVD-inner-P2" class="ellipsis f12"><a href="#" title="Katy Perry">Katy Perry</a></p>
+										</li>
+										<li class="left inline bkground-index">
+											<div>
+												<img src="img/section/109951164429099932.jpg" class="block"/>
+												<a href="#" title="我爱你这是最好的安排 电视剧原声音乐专辑" class="abs bkground-coverall"></a>
+											</div>
+											<p id="DVD-inner-P1" class="ellipsis f12"><a href="" title="我爱你这是最好的安排 电视剧原声音乐专辑">我爱你这是最好的安排 电视剧原声音乐专辑</a></p>
+											<p id="DVD-inner-P2" class="ellipsis f12"><a href="#" title="群星">群星</a></p>
+										</li>
+										<li class="left inline bkground-index">
+											<div>
+												<img src="img/section/109951164429037390.jpg" class="block"/>
+												<a href="#" title="야호(夜好)" class="abs bkground-coverall"></a>
+											</div>
+											<p id="DVD-inner-P1" class="ellipsis f12"><a href="" title="야호(夜好)">야호(夜好)</a></p>
+											<p id="DVD-inner-P2" class="ellipsis f12"><a href="#" title="N.Flying">N.Flying</a></p>
+										</li>
+										<li class="left inline bkground-index">
+											<div>
+												<img src="img/section/109951164384346866.jpg" class="block"/>
+												<a href="#" title="我和我的祖国" class="abs bkground-coverall"></a>
+											</div>
+											<p id="DVD-inner-P1" class="ellipsis f12"><a href="" title="我和我的祖国">我和我的祖国</a></p>
+											<p id="DVD-inner-P2" class="ellipsis f12"><a href="#" title="王菲">王菲</a></p>
+										</li>
+									</ul>
+									
+									
+									
+									<ul id="DVD-inner-ul" class="pos block">
+										<li class="left inline bkground-index">
+											<div>
+												<img src="img/section/109951164440558453.jpg" class="block"/>
+												<a href="#" title="Walk On Water" class="abs bkground-coverall"></a>
+											</div>
+											<p id="DVD-inner-P1" class="ellipsis f12"><a href="" title="Walk On Water">Walk On Water</a></p>
+											<p id="DVD-inner-P2" class="ellipsis f12"><a href="#" title="G.E.M.邓紫棋">G.E.M.邓紫棋</a></p>
+										</li>
+										<li class="left inline bkground-index">
+											<div>
+												<img src="img/section/109951164370176967.jpg" class="block"/>
+												<a href="#" title="将故事写成我们" class="abs bkground-coverall"></a>
+											</div>
+											<p id="DVD-inner-P1" class="ellipsis f12"><a href="" title="将故事写成我们">将故事写成我们</a></p>
+											<p id="DVD-inner-P2" class="ellipsis f12"><a href="#" title="林俊杰">林俊杰</a></p>
+										</li>
+										<li class="left inline bkground-index">
+											<div>
+												<img src="img/section/109951164260234943.jpg" class="block"/>
+												<a href="#" title="Lover" class="abs bkground-coverall"></a>
+											</div>
+											<p id="DVD-inner-P1" class="ellipsis f12"><a href="" title="Lover">Lover</a></p>
+											<p id="DVD-inner-P2" class="ellipsis f12"><a href="#" title="Taylor Swift">Taylor Swift</a></p>
+										</li>
+										<li class="left inline bkground-index">
+											<div>
+												<img src="img/section/109951164382158140.jpg" class="block"/>
+												<a href="#" title="런닝맨 팬미팅 런닝구 프로젝트" class="abs bkground-coverall"></a>
+											</div>
+											<p id="DVD-inner-P1" class="ellipsis f12"><a href="" title="런닝맨 팬미팅 런닝구 프로젝트">런닝맨 팬미팅 런닝구 프로젝트</a></p>
+											<p id="DVD-inner-P2" class="ellipsis f12"><a href="#" title="V.A">V.A</a></p>
+										</li>
+										<li class="left inline bkground-index">
+											<div>
+												<img src="img/section/109951164393458903.jpg" class="block"/>
+												<a href="#" title="哪吒之魔童降世 电影原声音乐大碟" class="abs bkground-coverall"></a>
+											</div>
+											<p id="DVD-inner-P1" class="ellipsis f12"><a href="" title="哪吒之魔童降世 电影原声音乐大碟">哪吒之魔童降世 电影原声音乐大碟</a></p>
+											<p id="DVD-inner-P2" class="ellipsis f12"><a href="#" title="朱芸编">朱芸编</a></p>
+										</li>
+									</ul>
+								</div>
+								<a href="javascript:void(0)" class="abs bkground-index block" id="D-right"></a>
+							</div>
+						</div>
+						<!-- 第二行中第二行第一列第三行 -->
+						<!-- 榜单部分 -->
+						<div id="List" class="second-row-sr-fc-tr">
+							<!-- 第二行中第二行第一列第三行的第一行 -->
+							<div id="model" class="bkground-index cl second-row-sr-fc-tr-fr">
+								<a href="#" class="left f20">榜单</a>
+								<span class="cl"> 
+									<i class="right bkground-index inblock"></i>
+									<a href="#" class="f12 right mtm">更多</a>
+								</span>
+							</div>
+							<!-- 第二行中第二行第一列第三行的第二行 -->
+							<div id="List-content" class="bkground-indexBill cl second-row-sr-fc-tr-sr">
+								<!-- 第二行中第二行第一列第三行第二行的第一列 -->
+								<dl id="ListAll" class="left second-row-sr-fc-tr-sr-fc">
+									<dt id="List-top" class="blockc cl pos">
+										<div id="List-top-L" class="pos">
+											<img src="img/section/18696095720518497.jpg" class="block"/>
+											<a href="#" class="abs bkground-coverall inblock" title="云飙升榜"></a>
+										</div>
+										<div id="List-top-R" class="abs">
+											<a href="#">
+												<h3 class="f14 ellipsis">云音乐飙升榜</h3>
+											</a>
+											<div class="cl mtm">
+												<a href="#" class="left block bkground-index"></a>
+												<a href="#" class="left block bkground-index"></a>
+											</div>
+										</div>
+										<dd id="List-bottom">
+											<ol id="List-ol1">
+												<li class="cl pos">
+													<span class="left pos txt-center f16 red-c10">1</span>
+													<a href="#" title="Walk On Water" class="left f12">Walk On Water</a>
+													<div id="small-pic" class="cl abs">
+														<a href="#" title="播放" class="left block bkground-index"></a>
+														<a href="#" title="添加到播放列表" class="left block bkground-icon"></a>
+														<a href="#" title="收藏" class="left block bkground-index"></a>
+													</div>
+												</li>
+												<li class="cl pos">
+													<span class="left pos txt-center f16 red-c10">2</span>
+													<a href="#" title="大田後生仔" class="left f12">大田後生仔</a>
+													<div id="small-pic" class="cl abs">
+														<a href="#" title="播放" class="left block bkground-index"></a>
+														<a href="#" title="添加到播放列表" class="left block bkground-icon"></a>
+														<a href="#" title="收藏" class="left block bkground-index"></a>
+													</div>
+												</li>
+												<li class="cl pos">
+													<span class="left pos txt-center f16 red-c10">3</span>
+													<a href="#" title="我怀疑你曾来过" class="left f12">我怀疑你曾来过</a>
+													<div id="small-pic" class="cl abs">
+														<a href="#" title="播放" class="left block bkground-index"></a>
+														<a href="#" title="添加到播放列表" class="left block bkground-icon"></a>
+														<a href="#" title="收藏" class="left block bkground-index"></a>
+													</div>
+												</li>
+												<li class="cl pos">
+													<span class="left pos txt-center f16">4</span>
+													<a href="#" title="拾忆" class="left f12">拾忆</a>
+													<div id="small-pic" class="cl abs">
+														<a href="#" title="播放" class="left block bkground-index"></a>
+														<a href="#" title="添加到播放列表" class="left block bkground-icon"></a>
+														<a href="#" title="收藏" class="left block bkground-index"></a>
+													</div>
+												</li>
+												<li class="cl pos">
+													<span class="left pos txt-center f16">5</span>
+													<a href="#" title="惨绿少年" class="left f12">惨绿少年</a>
+													<div id="small-pic" class="cl abs">
+														<a href="#" title="播放" class="left block bkground-index"></a>
+														<a href="#" title="添加到播放列表" class="left block bkground-icon"></a>
+														<a href="#" title="收藏" class="left block bkground-index"></a>
+													</div>
+												</li>
+												<li class="cl pos">
+													<span class="left pos txt-center f16">6</span>
+													<a href="#" title="风停了雨停了我们还拥抱着" class="left f12">风停了雨停了我们还拥抱着</a>
+													<div id="small-pic" class="cl abs">
+														<a href="#" title="播放" class="left block bkground-index"></a>
+														<a href="#" title="添加到播放列表" class="left block bkground-icon"></a>
+														<a href="#" title="收藏" class="left block bkground-index"></a>
+													</div>
+												</li>
+												<li class="cl pos">
+													<span class="left pos txt-center f16">7</span>
+													<a href="#" title="往世界反方向走" class="left f12">往世界反方向走</a>
+													<div id="small-pic" class="cl abs">
+														<a href="#" title="播放" class="left block bkground-index"></a>
+														<a href="#" title="添加到播放列表" class="left block bkground-icon"></a>
+														<a href="#" title="收藏" class="left block bkground-index"></a>
+													</div>
+												</li>
+												<li class="cl pos">
+													<span class="left pos txt-center f16">8</span>
+													<a href="#" title="DWAY!" class="left f12">DWAY！</a>
+													<div id="small-pic" class="cl abs">
+														<a href="#" title="播放" class="left block bkground-index"></a>
+														<a href="#" title="添加到播放列表" class="left block bkground-icon"></a>
+														<a href="#" title="收藏" class="left block bkground-index"></a>
+													</div>
+												</li>
+												<li class="cl pos">
+													<span class="left pos txt-center f16">9</span>
+													<a href="#" title="远走高飞" class="left f12">远走高飞</a>
+													<div id="small-pic" class="cl abs">
+														<a href="#" title="播放" class="left block bkground-index"></a>
+														<a href="#" title="添加到播放列表" class="left block bkground-icon"></a>
+														<a href="#" title="收藏" class="left block bkground-index"></a>
+													</div>
+												</li>
+												<li class="cl pos">
+													<span class="left pos txt-center f16">10</span>
+													<a href="#" title="你懂就好了" class="left f12">你懂就好了</a>
+													<div id="small-pic" class="cl abs">
+														<a href="#" title="播放" class="left block bkground-index"></a>
+														<a href="#" title="添加到播放列表" class="left block bkground-icon"></a>
+														<a href="#" title="收藏" class="left block bkground-index"></a>
+													</div>
+												</li>
+												<div>
+													<a id="selectAll" href="#" class="pos f12 block">查看全部></a>
+												</div>
+											</ol>
+										</dd>
+									</dt>
+									
+								</dl>
+								<!-- 第二行中第二行第一列第三行第二行的第二列 -->
+								<dl id="ListAll" class="left second-row-sr-fc-tr-sr-sc">
+									<dt id="List-top" class="blockc cl pos">
+										<div id="List-top-L" class="pos">
+											<img src="img/section/18713687906568048.jpg" class="block"/>
+											<a href="#" class="abs bkground-coverall inblock" title="云音乐新歌榜"></a>
+										</div>
+										<div id="List-top-R" class="abs">
+											<a href="#">
+												<h3 class="f14 ellipsis">云音乐新歌榜</h3>
+											</a>
+											<div class="cl mtm">
+												<a href="#" class="left block bkground-index"></a>
+												<a href="#" class="left block bkground-index"></a>
+											</div>
+										</div>
+										<dd id="List-bottom">
+											<ol id="List-ol2">
+												<li class="cl pos">
+													<span class="left pos txt-center f16 red-c10">1</span>
+													<a href="#" title="大田後生仔" class="left f12">大田後生仔</a>
+													<div id="small-pic" class="cl abs">
+														<a href="#" title="播放" class="left block bkground-index"></a>
+														<a href="#" title="添加到播放列表" class="left block bkground-icon"></a>
+														<a href="#" title="收藏" class="left block bkground-index"></a>
+													</div>
+												</li>
+												<li class="cl pos">
+													<span class="left pos txt-center f16 red-c10">2</span>
+													<a href="#" title="Walk On Water" class="left f12">Walk On Water</a>
+													<div id="small-pic" class="cl abs">
+														<a href="#" title="播放" class="left block bkground-index"></a>
+														<a href="#" title="添加到播放列表" class="left block bkground-icon"></a>
+														<a href="#" title="收藏" class="left block bkground-index"></a>
+													</div>
+												</li>
+												<li class="cl pos">
+													<span class="left pos txt-center f16 red-c10">3</span>
+													<a href="#" title="偏爱" class="left f12">偏爱</a>
+													<div id="small-pic" class="cl abs">
+														<a href="#" title="播放" class="left block bkground-index"></a>
+														<a href="#" title="添加到播放列表" class="left block bkground-icon"></a>
+														<a href="#" title="收藏" class="left block bkground-index"></a>
+													</div>
+												</li>
+												<li class="cl pos">
+													<span class="left pos txt-center f16">4</span>
+													<a href="#" title="I Love You 3000 II" class="left f12">I Love You 3000 II</a>
+													<div id="small-pic" class="cl abs">
+														<a href="#" title="播放" class="left block bkground-index"></a>
+														<a href="#" title="添加到播放列表" class="left block bkground-icon"></a>
+														<a href="#" title="收藏" class="left block bkground-index"></a>
+													</div>
+												</li>
+												<li class="cl pos">
+													<span class="left pos txt-center f16">5</span>
+													<a href="#" title="大田後生仔" class="left f12">大田後生仔</a>
+													<div id="small-pic" class="cl abs">
+														<a href="#" title="播放" class="left block bkground-index"></a>
+														<a href="#" title="添加到播放列表" class="left block bkground-icon"></a>
+														<a href="#" title="收藏" class="left block bkground-index"></a>
+													</div>
+												</li>
+												<li class="cl pos">
+													<span class="left pos txt-center f16">6</span>
+													<a href="#" title="太阳" class="left f12">太阳</a>
+													<div id="small-pic" class="cl abs">
+														<a href="#" title="播放" class="left block bkground-index"></a>
+														<a href="#" title="添加到播放列表" class="left block bkground-icon"></a>
+														<a href="#" title="收藏" class="left block bkground-index"></a>
+													</div>
+												</li>
+												<li class="cl pos">
+													<span class="left pos txt-center f16">7</span>
+													<a href="#" title="失乐" class="left f12">失乐</a>
+													<div id="small-pic" class="cl abs">
+														<a href="#" title="播放" class="left block bkground-index"></a>
+														<a href="#" title="添加到播放列表" class="left block bkground-icon"></a>
+														<a href="#" title="收藏" class="left block bkground-index"></a>
+													</div>
+												</li>
+												<li class="cl pos">
+													<span class="left pos txt-center f16">8</span>
+													<a href="#" title="那女孩对我说(女生正式版)" class="left f12">那女孩对我说(女生正式版)</a>
+													<div id="small-pic" class="cl abs">
+														<a href="#" title="播放" class="left block bkground-index"></a>
+														<a href="#" title="添加到播放列表" class="left block bkground-icon"></a>
+														<a href="#" title="收藏" class="left block bkground-index"></a>
+													</div>
+												</li>
+												<li class="cl pos">
+													<span class="left pos txt-center f16">9</span>
+													<a href="#" title="太多" class="left f12">太多</a>
+													<div id="small-pic" class="cl abs">
+														<a href="#" title="播放" class="left block bkground-index"></a>
+														<a href="#" title="添加到播放列表" class="left block bkground-icon"></a>
+														<a href="#" title="收藏" class="left block bkground-index"></a>
+													</div>
+												</li>
+												<li class="cl pos">
+													<span class="left pos txt-center f16">10</span>
+													<a href="#" title="拾忆" class="left f12">拾忆</a>
+													<div id="small-pic" class="cl abs">
+														<a href="#" title="播放" class="left block bkground-index"></a>
+														<a href="#" title="添加到播放列表" class="left block bkground-icon"></a>
+														<a href="#" title="收藏" class="left block bkground-index"></a>
+													</div>
+												</li>
+												<div>
+													<a id="selectAll" href="#" class="pos f12 block">查看全部></a>
+												</div>
+											</ol>
+										</dd>
+									</dt>
+									
+								</dl>
+								<!-- 第二行中第二行第一列第三行第二行的第二列 -->
+								<dl id="ListAll" class="left second-row-sr-fc-tr-sr-tc">
+									<dt id="List-top" class="blockc cl pos">
+										<div id="List-top-L" class="pos">
+											<img src="img/section/18740076185638788.jpg" class="block"/>
+											<a href="#" class="abs bkground-coverall inblock" title="网易原创歌曲榜"></a>
+										</div>
+										<div id="List-top-R" class="abs">
+											<a href="#">
+												<h3 class="f14 ellipsis">网易原创歌曲榜</h3>
+											</a>
+											<div class="cl mtm">
+												<a href="#" class="left block bkground-index"></a>
+												<a href="#" class="left block bkground-index"></a>
+											</div>
+										</div>
+										<dd id="List-bottom">
+											<ol id="List-ol3">
+												<li class="cl pos">
+													<span class="left pos txt-center f16 red-c10">1</span>
+													<a href="#" title="星子" class="left f12">星子</a>
+													<div id="small-pic" class="cl abs">
+														<a href="#" title="播放" class="left block bkground-index"></a>
+														<a href="#" title="添加到播放列表" class="left block bkground-icon"></a>
+														<a href="#" title="收藏" class="left block bkground-index"></a>
+													</div>
+												</li>
+												<li class="cl pos">
+													<span class="left pos txt-center f16 red-c10">2</span>
+													<a href="#" title="知我" class="left f12">知我</a>
+													<div id="small-pic" class="cl abs">
+														<a href="#" title="播放" class="left block bkground-index"></a>
+														<a href="#" title="添加到播放列表" class="left block bkground-icon"></a>
+														<a href="#" title="收藏" class="left block bkground-index"></a>
+													</div>
+												</li>
+												<li class="cl pos">
+													<span class="left pos txt-center f16 red-c10">3</span>
+													<a href="#" title="色彩调和" class="left f12">色彩调和</a>
+													<div id="small-pic" class="cl abs">
+														<a href="#" title="播放" class="left block bkground-index"></a>
+														<a href="#" title="添加到播放列表" class="left block bkground-icon"></a>
+														<a href="#" title="收藏" class="left block bkground-index"></a>
+													</div>
+												</li>
+												<li class="cl pos">
+													<span class="left pos txt-center f16">4</span>
+													<a href="#" title="风铃" class="left f12">风铃</a>
+													<div id="small-pic" class="cl abs">
+														<a href="#" title="播放" class="left block bkground-index"></a>
+														<a href="#" title="添加到播放列表" class="left block bkground-icon"></a>
+														<a href="#" title="收藏" class="left block bkground-index"></a>
+													</div>
+												</li>
+												<li class="cl pos">
+													<span class="left pos txt-center f16">5</span>
+													<a href="#" title="夕阳·日落" class="left f12">夕阳·日落</a>
+													<div id="small-pic" class="cl abs">
+														<a href="#" title="播放" class="left block bkground-index"></a>
+														<a href="#" title="添加到播放列表" class="left block bkground-icon"></a>
+														<a href="#" title="收藏" class="left block bkground-index"></a>
+													</div>
+												</li>
+												<li class="cl pos">
+													<span class="left pos txt-center f16">6</span>
+													<a href="#" title="回到原点" class="left f12">回到原点</a>
+													<div id="small-pic" class="cl abs">
+														<a href="#" title="播放" class="left block bkground-index"></a>
+														<a href="#" title="添加到播放列表" class="left block bkground-icon"></a>
+														<a href="#" title="收藏" class="left block bkground-index"></a>
+													</div>
+												</li>
+												<li class="cl pos">
+													<span class="left pos txt-center f16">7</span>
+													<a href="#" title="有人用沉默把理想窃取" class="left f12">有人用沉默把理想窃取</a>
+													<div id="small-pic" class="cl abs">
+														<a href="#" title="播放" class="left block bkground-index"></a>
+														<a href="#" title="添加到播放列表" class="left block bkground-icon"></a>
+														<a href="#" title="收藏" class="left block bkground-index"></a>
+													</div>
+												</li>
+												<li class="cl pos">
+													<span class="left pos txt-center f16">8</span>
+													<a href="#" title="马王的浪漫" class="left f12">马王的浪漫</a>
+													<div id="small-pic" class="cl abs">
+														<a href="#" title="播放" class="left block bkground-index"></a>
+														<a href="#" title="添加到播放列表" class="left block bkground-icon"></a>
+														<a href="#" title="收藏" class="left block bkground-index"></a>
+													</div>
+												</li>
+												<li class="cl pos">
+													<span class="left pos txt-center f16">9</span>
+													<a href="#" title="We Love In The 90s" class="left f12">We Love In The 90s</a>
+													<div id="small-pic" class="cl abs">
+														<a href="#" title="播放" class="left block bkground-index"></a>
+														<a href="#" title="添加到播放列表" class="left block bkground-icon"></a>
+														<a href="#" title="收藏" class="left block bkground-index"></a>
+													</div>
+												</li>
+												<li class="cl pos">
+													<span class="left pos txt-center f16">10</span>
+													<a href="#" title="消失的女人" class="left f12">消失的女人</a>
+													<div id="small-pic" class="cl abs">
+														<a href="#" title="播放" class="left block bkground-index"></a>
+														<a href="#" title="添加到播放列表" class="left block bkground-icon"></a>
+														<a href="#" title="收藏" class="left block bkground-index"></a>
+													</div>
+												</li>
+												<div>
+													<a id="selectAll" href="#" class="pos f12 block">查看全部></a>
+												</div>
+											</ol>
+										</dd>
+									</dt>
+								</dl>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- 第二行中第二行的第二列 -->
+				<!-- 右部分内容 -->
+				<div id="content-R" class="abs second-row-sr-sc">
+					<!-- 第二行中第二行的第二列第一行 -->
+					<div id="load-block" class="second-row-sr-sc-fr">
+						<p class="f12">登陆网易云，可以享受无限收藏的乐趣，并且无限同步到手机</p>
+						<a href="#" id="load" class="f14 block txt-center">用户登录</a>
+					</div>
+					<!-- 第二行中第二行的第二列第二行 -->
+					<div id="singer" class="pos plw prw second-row-sr-sc-sr">
+						<h3 class="pos ptn">
+							<span class="f12 abs">入住歌手</span>
+							<a href="#" class="f12 abs">查看全部 ></a>
+						</h3>
+						<!-- 音乐人列表 -->
+						<ul id="person-music" class="mtw">
+							<li class="mtw cl">
+								<a href="#" class="inblock cl">
+									<div>
+										<img src="./img/section/aMEl.jpg" class="left"/>
+									</div>
+									<div class="left">
+										<h4 class="f14">张惠妹aMEI</h4>
+										<p class="f12 ellipsis">台湾歌手张惠妹</p>
+									</div>
+								</a>
+							</li>
+							<li class="mtm cl">
+								<a href="#" class="inblock cl">
+									<div>
+										<img src="./img/section/Fine.jpg" class="left"/>
+									</div>
+									<div class="left">
+										<h4 class="f14">Fine乐团</h4>
+										<p class="f12 ellipsis">独立音乐人</p>
+									</div>
+								</a>
+							</li>
+							<li class="mtm cl">
+								<a href="#" class="inblock cl">
+									<div>
+										<img src="./img/section/19027048718765608.jpg" class="left"/>
+									</div>
+									<div class="left">
+										<h4 class="f14">万晓利</h4>
+										<p class="f12 ellipsis">民谣歌手、中国现代民谣的代表人之一</p>
+									</div>
+								</a>
+							</li>
+							<li class="mtm cl">
+								<a href="#" class="inblock cl">
+									<div>
+										<img src="./img/section/7943971513291094.jpg" class="left"/>
+									</div>
+									<div class="left">
+										<h4 class="f14">音乐人赵雷</h4>
+										<p class="f12 ellipsis">民谣歌手</p>
+									</div>
+								</a>
+							</li>
+							<li class="mtm cl">
+								<a href="#" class="inblock cl">
+									<div>
+										<img src="./img/section/109951163892302996.jpg" class="left"/>
+									</div>
+									<div class="left">
+										<h4 class="f14">王三傅</h4>
+										<p class="f12">音乐人</p>
+									</div>
+								</a>
+							</li>
+						</ul>
+						<div id="apply-personMusic">
+							<a href="#" class="inblock txt-center f14 mtw">申请成为网易音乐人</a>
+						</div>
+					</div>
+					<!-- 第二行中第二行的第二列第三行 -->
+					<!-- hot-host 热门主播 -->
+					<div id="hotHost" class="second-row-sr-sc-tr">
+						<div id="text">
+							<p class="f12 txt-left mtv">热门主播</p>
+						</div>
+						<div id="Host">
+							<ul class="cl">
+								<li class="mlw mrw left mtw">
+									<a href="#"><img src="./img/section/1407374893913311.jpg" class="left mrm"/></a>
+									<div id="info">
+										<p>
+											<a href="#" class="f12 inblock">陈立</a>
+											<img src="./img/section/v.png"/>
+										</p>
+										<p class="f12">心理学家、美食家陈立教授</p>
+									</div>
+								</li>
+								<li class="mlw mrw left mtm">
+									<a href="#"><img src="./img/section/7942872001461517.jpg" class="left mrm"/></a>
+									<div id="info">
+										<p>
+											<a href="#" class="f12 inblock">DJ艳秋</a>
+											<img src="./img/section/v.png"/>
+										</p>
+										<p class="f12">著名音乐节目主持人</p>
+									</div>
+								</li>
+								<li class="mlw mrw left mtm">
+									<a href="#"><img src="./img/section/3427177769086282.jpg" class="left mrm"/></a>
+									<div id="info">
+										<p>
+											<a href="#" class="f12 inblock">用户324314596</a>
+											<img src="./img/section/v.png"/>
+										</p>
+										<p class="f12">国家大剧院古典音乐官方</p>
+									</div>
+								</li>
+								<li class="mlw mrw left mtm">
+									<a href="#"><img src="./img/section/3130309604335651.jpg" class="left mrm"/></a>
+									<div id="info">
+										<p>
+											<a href="#" class="f12 inblock">谢谢收听</a>
+											<img src="./img/section/v.png"/>
+										</p>
+										<p class="f12">南京电台主持人王馨</p>
+									</div>
+								</li>
+								<li class="mlw mrw left mtm">
+									<a href="#"><img src="./img/section/3440371884651965.jpg" class="left mrm"/></a>
+									<div id="info">
+										<p>
+											<a href="#" class="f12 inblock">DJ晓苏</a>
+											<img src="./img/section/v.png"/>
+										</p>
+										<p class="f12">独立DJ，CRI环球官博特邀DJ</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer>
+			<div id="conten" class="pos">
+				<ul id="conten-help" class="abs cl wpn">
+					<li class="left"><a href="#" class="f12 block txt-center">服务条款</a></li>
+					<li class="left"><a href="#" class="f12 block txt-center">隐私政策</a></li>
+					<li class="left"><a href="#" class="f12 block txt-center">儿童隐私政策</a></li>
+					<li class="left"><a href="#" class="f12 block txt-center">版权投诉指引</a></li>
+					<li class="left"><a href="#" class="f12 block txt-center">意见反馈</a></li>
+				</ul><br>
+				<p id="company-infor">网易公司版权所有©1997-2019&emsp;杭州乐读科技有限公司运营：浙网文[2018]3506-263号</p>
+				<p id="call">违法和不良信息举报电话：0571-89853516&emsp;举报邮箱：ncm5990@163.com</p>
+				<ul id="icon" class="abs cl">
+					<li class="left txt-center"><a href="#"><img src="img/footer/user.png">用户认证</a></li>
+					<li class="left txt-center"><a href="#"><img src="img/footer/person-music.png">独立音乐人</a></li>
+					<li class="left txt-center"><a href="#"><img src="img/footer/admire.png">赞赏</a></li>
+					<li class="left txt-center"><a href="#"><img src="img/footer/video-reward.png">视频奖励</a></li>
+				</ul>
+			</div>
+			
+			<div id="video">
+				<!-- 最右侧钥匙部分 -->
+				<div id="vi-key" class="abs bkground-video">
+					<a id="key" class="pos bkground-video block" href="javascript:void(0)"></a>
+				</div>
+				<!-- 中心部分按钮 -->
+				<div id="vi-center" class="left mtm pos cl">
+					<!-- 上下暂停播放按钮 -->
+					<div id="btns" class="left">
+						<a href="#" class="bkground-video block mtm left" id="previous" title="上一曲"></a>
+						<a href="#" class="bkground-video block mtn left mln" id="stop" title="暂停"></a>
+						<a href="#" class="bkground-video block mtm left mln" id="next" title="下一曲"></a>
+					</div>
+					<div id="music-pic">
+						<img src="img/footer/music-pic.jpg" class="abs">
+						<a href="#" class="abs block bkground-video"></a>
+					</div>
+					<!-- 进度条设置 -->
+					<div id="play" class="" class="pos">
+						<div id="space"></div>
+						<div class="pos">
+							<div id="bar" class="pos"></div>
+							<span id="bar-pic" class="abs bkground-iconall pos"></span>
+						</div>
+						<!-- 进度时间 -->
+						<span id="time" class="abs">
+							<em>00:00</em>
+							/ 00:00
+						</span>
+					</div>
+					<!-- 文档和分享按钮 -->
+					<div id="doc-share" class="abs cl">
+						<a href="#" id="doc" class="bkground-video left"></a>
+						<a href="#" id="share" class="bkground-video left"></a>
+					</div>
+					<!-- 其他三个按钮 -->
+					<div id="other" class="abs bkground-iconall cl">
+						<a href="#" id="voice" class="left bkground-video"></a>
+						<a href="#" id="change" class="left bkground-video" title="循环"></a>
+						<a href="#" id="doc-stop" class="left bkground-video block txt-center decoration mtm" title="播放列表">0</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</body>
+	<script src="js/jquery3.4.1.js" type="text/javascript"></script>
+	<script src="js/header.js" type="text/javascript"></script>
+	<script src="js/section.js" type="text/javascript"></script>
+	<script src="js/footer.js" type="text/javascript"></script>
+</html>

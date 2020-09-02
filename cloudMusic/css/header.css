@@ -1,0 +1,125 @@
+@charset "utf-8";
+header{
+	height: 150px;
+	width: 100%;
+
+}
+#h_top{
+	height: 70px;
+	width: 100%;
+	background-color: rgb(36,36,36);
+
+}
+#cloud_music{
+	height: 70px;
+	width: 200px;
+	margin-left: 150px;
+	font-size: 24px;
+	font-weight: bold;
+	color: #FFFFFF;
+	line-height: 60px;
+	top: 5px;
+}
+#ul_top{
+	height: 70px;
+	width: 480px;
+	margin-left: 350px;
+}
+#cloud_music img{
+	vertical-align: middle;
+	height: 46px;
+	width: 40px;
+	margin-right: 5px;	
+}
+#ul_top li{
+	height: 70px;
+	width: 80px;
+	line-height: 70px;
+}
+#ul_top li a{
+	color: #FFFFFF;
+}
+#ul_top li:hover{
+	background: #000000;
+}
+#ul_top li img{
+	height: 10px;
+	width: 20px;
+	bottom: 0;
+	left: 30px;
+}
+#ul_top li:nth-of-type(1){
+	background: #000000;
+}
+/* 输入框 */
+#sch{
+	top: 20px;
+	left: 920px;
+	height: 25px;
+	width: 160px;
+	border-radius: 20px;
+	background: url(../img/header/question_mark.png) left 5px top 5px no-repeat;
+	background-size: 20px 20px;
+	background-color: #FFFFFF;
+	padding-left: 25px;
+}
+
+#auther_center{
+	top: 20px;
+	right: 220px;
+	color: #fff;
+	height: 30px;
+	width: 100px;
+	border: 1px solid rgb(78,78,78);
+	border-radius: 15px;
+	line-height: 30px;
+}
+#auther_center:hover{
+	border-color: #FFFFFF;
+}
+#loading{
+	right: 180px;
+	top: 28px;
+	color: rgb(116,116,116);
+}
+#loading:hover{
+	color: rgb(150,150,150);
+}
+/* HOT设置 */
+#ul_top li>span{
+	background-color: rgb(179,40,30);
+	color: #fff;
+	height: 14px;
+	width: 32px;
+	line-height: 14px;
+	border-radius: 10px;
+	font-size: 12px;
+	top:20px;
+	right:-30px;
+}
+/* header nav */
+#nav{
+	background: rgb(179,40,30);
+	height: 36px;
+	width: 100%;
+}
+#nav-ul{
+	height: 36px;
+	width:510;
+	margin-left: 348px;
+}
+#nav-ul li{
+	height: 36px;
+	width: 85px;
+}
+#nav-ul li>a{
+	height: 20px;
+	width: 75px;
+	border-radius: 10px;
+	margin: 8px auto;
+	color: rgb(252,247,247);
+	line-height: 20px;
+}
+#nav-ul li>a:hover{
+	background: rgb(143,30,22);
+}
